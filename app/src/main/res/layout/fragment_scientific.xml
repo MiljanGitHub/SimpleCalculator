@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buttons_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/expression"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:hint="Not implemented"
+        android:gravity="bottom">
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- x power 2-->
+        <Button
+            android:id="@+id/base2_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/base2">
+        </Button>
+
+        <!-- 1/x -->
+        <Button
+            android:id="@+id/pi_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/pi">
+        </Button>
+
+        <!-- |x| -->
+        <Button
+            android:id="@+id/e_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/euler">
+        </Button>
+
+        <!-- exp -->
+        <Button
+            android:id="@+id/C_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/C">
+        </Button>
+
+        <!-- mod -->
+        <Button
+            android:id="@+id/erase_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/erase">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- x squared-->
+        <Button
+            android:id="@+id/power2_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/power2">
+        </Button>
+
+        <!-- 1/x -->
+        <Button
+            android:id="@+id/one_over_x_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/one_over_x">
+        </Button>
+
+        <!-- |x| -->
+        <Button
+            android:id="@+id/absolute_x_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/absolute_x">
+        </Button>
+
+        <!-- exp -->
+        <Button
+            android:id="@+id/exp_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/exp">
+        </Button>
+
+        <!-- mod -->
+        <Button
+            android:id="@+id/mod_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/mod">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- x power 3-->
+        <Button
+            android:id="@+id/power3_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/power3">
+        </Button>
+
+        <!-- ( -->
+        <Button
+            android:id="@+id/left_parenthesis_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/left_parenthesis_sci">
+        </Button>
+
+        <!-- ) -->
+        <Button
+            android:id="@+id/right_parenthesis_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/right_parenthesis_sci">
+        </Button>
+
+        <!-- factorial -->
+        <Button
+            android:id="@+id/factorial_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/factorial">
+        </Button>
+
+        <!-- / -->
+        <Button
+            android:id="@+id/division_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/division_sci">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- x power y-->
+        <Button
+            android:id="@+id/XpowerY_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/XpowerY">
+        </Button>
+
+        <!-- 7 -->
+        <Button
+            android:id="@+id/seven_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/seven_sci">
+        </Button>
+
+        <!-- 8 -->
+        <Button
+            android:id="@+id/eight_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/eight_sci">
+        </Button>
+
+        <!-- 9 -->
+        <Button
+            android:id="@+id/nine_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/nine_sci">
+        </Button>
+
+        <!-- multiply -->
+        <Button
+            android:id="@+id/multiply_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/multiply_sci">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <!-- base 10-->
+    <Button
+        android:id="@+id/base10_id"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/base10">
+    </Button>
+
+    <!-- 4 -->
+    <Button
+        android:id="@+id/four_sci_id"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/four_sci">
+    </Button>
+
+    <!-- 5 -->
+    <Button
+        android:id="@+id/five_sci_id"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/five_sci">
+    </Button>
+
+    <!-- 6 -->
+    <Button
+        android:id="@+id/six_sci_id"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/six_sci">
+    </Button>
+
+    <!-- minus -->
+    <Button
+        android:id="@+id/minus_sci_id"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/minus_sci">
+    </Button>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- log-->
+        <Button
+            android:id="@+id/log_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/log">
+        </Button>
+
+        <!-- 1 -->
+        <Button
+            android:id="@+id/one_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/one_sci">
+        </Button>
+
+        <!-- 2 -->
+        <Button
+            android:id="@+id/two_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/two_sci">
+        </Button>
+
+        <!-- 3 -->
+        <Button
+            android:id="@+id/three_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/three_sci">
+        </Button>
+
+        <!-- plus -->
+        <Button
+            android:id="@+id/plus_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/plus_sci">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- ln-->
+        <Button
+            android:id="@+id/ln_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/ln">
+        </Button>
+
+        <!-- negation -->
+        <Button
+            android:id="@+id/negation_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/negation">
+        </Button>
+
+        <!-- zero -->
+        <Button
+            android:id="@+id/zero_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/zero_sci">
+        </Button>
+
+        <!-- point -->
+        <Button
+            android:id="@+id/point_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/point_sci">
+        </Button>
+
+        <!-- equal -->
+        <Button
+            android:id="@+id/equal_sci_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/equal_sci">
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

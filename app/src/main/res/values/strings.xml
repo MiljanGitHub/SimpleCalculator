@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">SimpleCalculator</string>
+    <string name="c">C</string>
+    <string name="left_parenthesis">(</string>
+    <string name="right_parenthesis">)</string>
+    <string name="power">^</string>
+    <string name="division">/</string>
+    <string name="expression">Expression</string>
+
+
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="multiply">*</string>
+
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="minus">-</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="plus">+</string>
+
+    <string name="zero">0</string>
+    <string name="point">.</string>
+    <string name="equal">=</string>
+
+    <string-array name="calculators">
+        <item>Home</item>
+        <item>Standard</item>
+        <item>Scientific</item>
+        <item>Programmer</item>
+        <item>Converter</item>
+    </string-array>
+    <string name="title_top">Swipe right to open a new calculator</string>
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+    <string name="action_share">Share</string>
+
+
+
+    <string name="base2">2nd</string>
+    <string name="pi">Pi</string>
+    <string name="euler">e</string>
+    <string name="C">C</string>
+    <string name="erase">erase</string>
+
+
+    <string name="power2">x^2</string>
+    <string name="one_over_x">1/x</string>
+    <string name="absolute_x">|x|</string>
+    <string name="exp">EXP</string>
+    <string name="mod">MOD</string>
+
+
+    <string name="power3">x^3</string>
+    <string name="left_parenthesis_sci">(</string>
+    <string name="right_parenthesis_sci">)</string>
+    <string name="factorial">x!</string>
+    <string name="division_sci">/</string>
+
+
+    <string name="XpowerY">x^y</string>
+    <string name="seven_sci">7</string>
+    <string name="eight_sci">8</string>
+    <string name="nine_sci">9</string>
+    <string name="multiply_sci">*</string>
+
+    <string name="base10">10 base</string>
+    <string name="four_sci">4</string>
+    <string name="five_sci">5</string>
+    <string name="six_sci">6</string>
+    <string name="minus_sci">-</string>
+
+    <string name="log">log</string>
+    <string name="one_sci">1</string>
+    <string name="two_sci">2</string>
+    <string name="three_sci">3</string>
+    <string name="plus_sci">+</string>
+
+    <string name="ln">ln</string>
+    <string name="negation">+/-</string>
+    <string name="zero_sci">0</string>
+    <string name="point_sci">.</string>
+    <string name="equal_sci">=</string>
+
+
+
+    <!-- programmer -->
+
+    <!-- A < > clear erase -->
+
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
