@@ -1,7 +1,7 @@
 # SimpleCalculator
 
 Simple Android Caluculator app, which simulates work of three types of calculators, Standard, Scientific and Programmer. 
-I used one activity and three Fragments. Infix to postfix algoritham notation with Stack data structure was used was used for calculating algebraic expressions. 
+I used one activity and three Fragments. Infix to postfix algoritham notation with Stack data structure was used for evaluating and calculating algebraic expressions. 
 
 Few of other elements used in the app:
 
